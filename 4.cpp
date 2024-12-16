@@ -11,7 +11,7 @@ int main(){
 	case 2:
 		printf("nhap nam : ");
 		scanf("%d",&b);
-		if(b%4==0){
+		if(b%4==0&&b%100==0&&b%400==0){
 			printf("thang 2 co 29 ngay");
 		}else {
 			printf("thang 2 co 28 ngay");
