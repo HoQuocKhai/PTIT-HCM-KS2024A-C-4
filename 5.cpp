@@ -9,18 +9,11 @@ int main(){
 	printf ("nhap so nguyen thu 3 : ");
 	scanf("%d",&c);
 	if(b>a){
-		if (c>a&&c<b){
+		if (c>a&&c<b||c>b&&c<a){
 			printf("so %d nam trong khoang tu %d den %d",c,a,b);	
 		}else {
 			printf("so %d khong nam trong khoang tu %d den %d",c,a,b);
 		}
-	}else {
-		if (c>b&&c<a){
-			printf("so %d nam trong khoang tu %d den %d",c,b,a);	
-		}else {
-			printf("so %d khong nam trong khoang tu %d den %d",c,b,a);
-		}
 	}
-	
 	return 0;
 }
