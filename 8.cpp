@@ -8,7 +8,7 @@ int main(){
 	scanf("%d",&b);
 	printf("nhap vao cach tam giac c: ");
 	scanf("%d",&c);
-	if(a>b+c||b>a+c||c>b+a){
+	if(a<b+c&&b<a+c&&c<b+a){
 		printf("la 3 canh tam giac");
 	}else{
 		printf("khong phai 3 canh tam giac");
