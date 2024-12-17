@@ -4,7 +4,7 @@ int main(){
 	int a;
 	printf("nhap vao nam ban can kiem tra: ");
 	scanf("%d",&a);
-	if (a%4==0&&a%100==0&&a%400==0){
+	if (a%4==0&&a%100!=0||a%400==0){
 		printf("%d la nam nhuan",a);
 	}else {
 		printf("%d khong phai la nam nhuan",a);
